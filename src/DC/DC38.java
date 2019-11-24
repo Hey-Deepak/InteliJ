@@ -7,6 +7,8 @@ public class DC38 {
 
     public static void main(String[] args) {
         DC38 myObj = new DC38();
-        System.out.println("Name = " + myObj.name + "\nAge = " + myObj.name + "\nMail ID = " + myObj.mailId);
+        myObj.name = "Choudhary";
+        System.out.println("Name = " + myObj.name + "\nAge = " + myObj.age + "\nMail ID = " + myObj.mailId);
+
     }
 }
