@@ -10,7 +10,15 @@ class Class2 extends Class1 {
     public void myFun2() {
         System.out.println("I am myFun2");
     }
+
+    @Override
+    public void myFun1() {
+        System.out.println("I am Override myFun1");
+    }
+
+    ;
 }
+
 
 public class DC46 extends Class2 {
     public static void main(String[] args) {
