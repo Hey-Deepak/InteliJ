@@ -37,10 +37,10 @@ public class DC47 {
         A a = new A(5), b = new A(6);
         System.out.println(a + " " + b);
 
-        /*add(5);
+        add(5);
         add(4,6);
         add(4.5f,6.6f);
-        add(4.5f);*/
+        add(4.5f);
     }
 
 }
